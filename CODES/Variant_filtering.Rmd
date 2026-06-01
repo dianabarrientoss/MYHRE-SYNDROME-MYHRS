@@ -159,7 +159,7 @@ And neither parent should have the mutation
 ```{r}
 filtro12 <- filtro11[((filtro11[,49] == "Mother:na") & (filtro11[,50] == "Father:na")),]
 nrow(filtro12)
-cat("Genes with candidate variants of compound heterozygosity(16):\n")
+cat("Genes with candidate variants of de novo autosomal dominant disorder(16):\n")
 table(filtro12[,19])
 ```
 
